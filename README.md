@@ -1,6 +1,4 @@
-# iMENTOR codes
-
-This is an example code for paper [Navigate the Unknown: Enhancing LLM Reasoning with Intrinsic Motivation Guided Exploration](https://arxiv.org/pdf/2505.17621)
+# IMAGINE codes
 
 ## Installation
 
@@ -39,7 +37,7 @@ pip install wandb IPython matplotlib
 # We usually store our dataset at ./data/
 python ./examples/data_preprocess/countdown-4.py --local_dir {path_to_your_dataset}
 
-# An example for iMENTOR with grpo, you should first check the variable settings in it before running
+# An example for running with grpo, you should first check the variable settings in it before running
 bash scripts/iMENTOR_countdown-4_3b.sh
 ```
 
@@ -52,7 +50,7 @@ Therefore, this project will additionally use 1 GPU to train the reward network 
 
 ## Acknowledge
 
-- The project of iMENTOR is conducted on the [TinyZero](https://github.com/Jiayi-Pan/TinyZero) base environment with reinforcement learning tool [verl](https://github.com/volcengine/verl).
+- The project is conducted on the [TinyZero](https://github.com/Jiayi-Pan/TinyZero) base environment with reinforcement learning tool [verl](https://github.com/volcengine/verl).
 
 - We use Qwen2.5 series base model [Qwen2.5](https://github.com/QwenLM/Qwen2.5)
 

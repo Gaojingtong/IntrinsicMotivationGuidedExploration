@@ -1,4 +1,4 @@
-# IMAGINE codes
+# codes
 
 ## Installation
 

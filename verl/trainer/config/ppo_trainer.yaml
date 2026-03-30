@@ -164,3 +164,11 @@ imentor:
   lr: 0.001
   scales: [40.0, 40.0, 1.0]
 
+# Rebuttal Experiment #1 — Random Noise Baseline 的配置块
+# 用于 verl/trainer/main_random_noise.py
+# sigma: Gaussian noise 标准差
+# scales: 与 imentor 相同含义的 [alpha_scale, gamma_curr, gamma_step]
+random_noise:
+  sigma: 1.0
+  scales: [40.0, 40.0, 1.0]
+
